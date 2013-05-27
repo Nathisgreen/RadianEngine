@@ -1,0 +1,2 @@
+^C:\USERS\TESTACCOUNT\DESKTOP\RADIANENGINE\RADIANENGINE.MKB
+"C:\Marmalade\6.1\s3e\python\python.exe" "C:\Marmalade\6.1\s3e\makefile_builder\mkb.py" "c:/Users/TestAccount/Desktop/RadianEngine/RadianEngine.mkb" "--default-buildenv=vc10" --msvc-project

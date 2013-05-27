@@ -1,0 +1,50 @@
+Doing: "Package, Install and Run" on Configuration Default to android
+
+don't know which argument to pass to s3e_deploy for os=android
+
+['os', 'endDir', '<config>', 'tasktype']
+
+Passing the following arguments to s3e_deploy: ['C:\\Marmalade\\6.1\\s3e\\bin\\s3e_deploy.bat', '-n', '--os', 'android', '--arch', 'arm', '--gcc', '--to-device', '--run', 'c:\\Users\\TestAccount\\Desktop\\RadianEngine\\build_radianengine_vc10\\deploy_temp.py']
+
+running s3e_deploy commandline: "c:\marmalade\6.1\s3e\python\python.exe" "C:\Marmalade\6.1\s3e\deploy\main.py" "-n" "--os" "android" "--arch" "arm" "--gcc" "--to-device" "--run" "c:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\deploy_temp.py"
+
+CWD=c:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10
+
+Marmalade Deployment Tool v1.3
+
+Copyright (C) 2001-2012 Marmalade
+
+deploying RadianEngine [0.0.1] [arm-release] for 'android' to folder: 'deployments\default\android\release\arm\intermediate_files'
+
+--> copying files ...
+
+generating temporary keypair: C:\Users\TESTAC~1\AppData\Local\Temp\temp_s3e_key.txt
+
+ [execute] openssl.exe
+
+--> updating s3e binary: compression=lzma signing=1 config-embedding=1
+
+ [execute] s3e_mod.exe
+
+--> performing custom deployment steps for: 'android'
+
+Reading public key from C:\Users\TESTAC~1\AppData\Local\Temp\temp_s3e_key.txt ...
+
+public key embedded in loader
+
+ [execute] aapt.exe
+
+ [execute] jarsigner.exe
+
+ [execute] zipalign.exe
+
+SUCCESS: EVALUATION USE ONLY package written to 'c:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\deployments\default\android\release\arm' [took 14.46s]. This package is not licensed for commercial use
+
+--> deploying to device from: deployments\default\android\release\arm
+
+ERROR: User Terminated
+
+
+ERROR: User Terminated
+
+

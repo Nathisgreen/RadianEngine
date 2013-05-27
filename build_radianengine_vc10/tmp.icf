@@ -1,0 +1,7 @@
+# comments and whitespace stripped by deployment tool
+[Util]
+[GX]
+DisplayFrameRate=1
+[s3e]
+SysAppVersion=0.0.1
+SysAppCaption="RadianEngine"

@@ -1,0 +1,73 @@
+files
+{
+	["src/Project"]
+	(src/Project)
+	BodyNode.cpp
+	Crab.cpp
+	Food.cpp
+	game.cpp
+	main.cpp
+	SnakeHead.cpp
+	["src/RadianEngine/Entity"]
+	(src/RadianEngine/Entity)
+	AnimatedEntity.cpp
+	BaseEntity.cpp
+	Entity.cpp
+	RenderableEntity.cpp
+	["src/RadianEngine"]
+	(src/RadianEngine)
+	CollisionHandler.cpp
+	ContentManager.cpp
+	EngineHelper.cpp
+	EntityManager.cpp
+	Input.cpp
+	Renderer.cpp
+	RenderSprite.cpp
+	["src/Project/h"]
+	(h/Project)
+	BodyNode.h
+	Crab.h
+	Food.h
+	game.h
+	SnakeHead.h
+	["src/RadianEngine/Entity/h"]
+	(h/RadianEngine/Entity)
+	AnimatedEntity.h
+	BaseEntity.h
+	Entity.h
+	RenderableEntity.h
+	["src/RadianEngine/h"]
+	(h/RadianEngine)
+	CollisionHandler.h
+	ContentManager.h
+	EngineHelper.h
+	EntityManager.h
+	Input.h
+	Rectangle.h
+	Renderer.h
+	RenderSprite.h
+}
+
+includepaths
+{
+	h
+}
+
+subprojects
+{
+	iw2d
+}
+
+assets
+{
+	(data-ram/data-gles1/testGroup)
+	testGroup.group.bin
+	(data-ram/data-gles1/data)
+}
+
+deployments
+{
+	["Default"]
+	caption='RadianEngine'
+	name='RadianEngine'
+}

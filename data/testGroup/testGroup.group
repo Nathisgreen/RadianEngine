@@ -1,0 +1,11 @@
+CIwResGroup
+{
+	name "testGroup"
+	"./sprbody1.png"
+	"./sprbug1.png"
+	"./sprbug2.png"
+	"./sprbug3.png"
+	"./sprcrab.png"
+	"./sprhead.png"
+	"./sprwormnode.png"
+}

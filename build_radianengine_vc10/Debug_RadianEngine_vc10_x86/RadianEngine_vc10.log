@@ -1,0 +1,140 @@
+﻿Build started 27/05/2013 22:47:00.
+     1>Project "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\RadianEngine_vc10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug_RadianEngine_vc10_x86\RadianEngine_vc10.unsuccessfulbuild".
+       CustomBuild:
+         Performing Custom Build Tools
+         msg: option 'default-buildenv' overridden by command line
+         C:\Marmalade\6.1\s3e\makefile_builder\mkb.py c:/Users/Nath/Desktop/RadianEngine/RadianEngine.mkb --default-buildenv=vc10 --msvc-project
+         Building project: c:/Users/Nath/Desktop/RadianEngine/RadianEngine.mkb
+         done
+       ClCompile:
+         C:\Marmalade\6.1\s3e\bin\CL.exe /c /Ic:/Users/Nath/Desktop/RadianEngine/h /Ic:/users/nath/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/h /Ic:/users/nath/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/h /Ic:/users/nath/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/h /Ic:/marmalade/6.1/modules/iwutil/h /Ic:/marmalade/6.1/modules/iwgeom/h /Ic:/marmalade/6.1/modules/iwresmanager/h /Ic:/marmalade/6.1/modules/iwgl/h /Ic:/marmalade/6.1/modules/iwgx/h /Ic:/users/nath/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/h /Ic:/marmalade/6.1/modules/iwgxfont/h /Ic:/marmalade/6.1/modules/iw2d/h /Ic:/marmalade/6.1/s3e/h /Ic:/marmalade/6.1/s3e/h/ext /Ic:/marmalade/6.1/s3e/h/std /Ic:/marmalade/6.1/s3e/h/std/c++ /Ic:/marmalade/6.1/s3e/h/ext_legacy /Ic:/marmalade/6.1/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /Od /Oy- /X /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_RadianEngine_vc10_x86\\" /Fd"Debug_RadianEngine_vc10_x86\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/Entity/AnimatedEntity.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/Entity/BaseEntity.cpp c:/Users/Nath/Desktop/RadianEngine/src/Project/BodyNode.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/CollisionHandler.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/ContentManager.cpp c:/Users/Nath/Desktop/RadianEngine/src/Project/Crab.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/EngineHelper.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/Entity/Entity.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp c:/Users/Nath/Desktop/RadianEngine/src/Project/Food.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/Input.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/RenderSprite.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/Entity/RenderableEntity.cpp c:/Users/Nath/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp c:/Users/Nath/Desktop/RadianEngine/src/Project/SnakeHead.cpp c:/Users/Nath/Desktop/RadianEngine/src/Project/game.cpp c:/Users/Nath/Desktop/RadianEngine/src/Project/main.cpp /S3Eproject /J /FI"c:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\temp_defines_debug.h"
+         main.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         game.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\project\bodynode.h(15): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+         SnakeHead.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\project\bodynode.h(15): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(11): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(98): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(99): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(100): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(140): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(140): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(141): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(141): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(156): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(156): warning C4244: 'argument' : conversion from 'int32' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(215): warning C4244: '=' : conversion from 'float' to 'int32', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(218): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(219): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(220): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(259): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(264): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(265): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(277): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\project\snakehead.cpp(289): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Renderer.cpp
+     1>c:\users\nath\desktop\radianengine\src\radianengine\renderer.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\radianengine\renderer.cpp(49): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\radianengine\renderer.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+         RenderableEntity.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         RenderSprite.cpp
+         Input.cpp
+         Food.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\project\bodynode.h(15): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\food.cpp(28): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\food.cpp(28): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\food.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\project\food.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+         EntityManager.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\radianengine\entitymanager.cpp(15): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\radianengine\entitymanager.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\radianengine\entitymanager.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\nath\desktop\radianengine\src\radianengine\entitymanager.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+         Entity.cpp
+         EngineHelper.cpp
+     1>c:\users\nath\desktop\radianengine\src\radianengine\enginehelper.cpp(5): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\radianengine\enginehelper.cpp(30): warning C4244: '=' : conversion from 'float' to 'int32', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\radianengine\enginehelper.cpp(31): warning C4244: '=' : conversion from 'float' to 'int32', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\radianengine\enginehelper.cpp(33): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\radianengine\enginehelper.cpp(33): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+         Crab.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\crab.cpp(7): warning C4244: '=' : conversion from 'int32' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\crab.cpp(13): warning C4244: '=' : conversion from 'int32' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\crab.cpp(19): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\crab.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\crab.cpp(30): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\crab.cpp(31): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         ContentManager.cpp
+         CollisionHandler.cpp
+     1>c:\users\nath\desktop\radianengine\src\radianengine\collisionhandler.cpp(8): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         BodyNode.cpp
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\radianengine\entity\renderableentity.h(31): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\h\project\bodynode.h(15): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\bodynode.cpp(37): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\nath\desktop\radianengine\src\project\bodynode.cpp(38): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         BaseEntity.cpp
+         AnimatedEntity.cpp
+         Generating Code...
+       Link:
+         C:\Marmalade\6.1\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_RadianEngine_vc10_x86\RadianEngine.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/users/nath/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/lib/x86 /LIBPATH:c:/users/nath/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/lib/x86 /LIBPATH:c:/users/nath/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/lib/x86 /LIBPATH:c:/marmalade/6.1/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/6.1/modules/iwgeom/lib/x86 /LIBPATH:c:/marmalade/6.1/modules/iwresmanager/lib/x86 /LIBPATH:c:/marmalade/6.1/modules/iwgx/atitools /LIBPATH:c:/marmalade/6.1/modules/iwgx/lib/x86 /LIBPATH:c:/marmalade/6.1/modules/iwgl/lib/x86 /LIBPATH:c:/marmalade/6.1/modules/iwgxfont/lib/x86 /LIBPATH:c:/users/nath/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/lib/x86 /LIBPATH:c:/marmalade/6.1/modules/iw2d/lib/x86 /LIBPATH:c:/marmalade/6.1/s3e/lib/x86 vc6_compat.lib jpeg_d.lib z_d.lib png_d.lib iwutil_d.lib iwgeom_d.lib iwresmanager_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwgxfont_d.lib tiniconv_d.lib iw2d_d.lib s3e_cpp_vc8_d.lib s3e_d.lib s3e_api.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_RadianEngine_vc10_x86\RadianEngine.lib" /MACHINE:X86 /DLL Debug_RadianEngine_vc10_x86\AnimatedEntity.obj
+         Debug_RadianEngine_vc10_x86\BaseEntity.obj
+         Debug_RadianEngine_vc10_x86\BodyNode.obj
+         Debug_RadianEngine_vc10_x86\CollisionHandler.obj
+         Debug_RadianEngine_vc10_x86\ContentManager.obj
+         Debug_RadianEngine_vc10_x86\Crab.obj
+         Debug_RadianEngine_vc10_x86\EngineHelper.obj
+         Debug_RadianEngine_vc10_x86\Entity.obj
+         Debug_RadianEngine_vc10_x86\EntityManager.obj
+         Debug_RadianEngine_vc10_x86\Food.obj
+         Debug_RadianEngine_vc10_x86\Input.obj
+         Debug_RadianEngine_vc10_x86\RenderSprite.obj
+         Debug_RadianEngine_vc10_x86\RenderableEntity.obj
+         Debug_RadianEngine_vc10_x86\Renderer.obj
+         Debug_RadianEngine_vc10_x86\SnakeHead.obj
+         Debug_RadianEngine_vc10_x86\game.obj
+         Debug_RadianEngine_vc10_x86\main.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12
+         RadianEngine_vc10.vcxproj -> C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86
+       PostBuildEvent:
+         echo C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+         chdir /d "c:\marmalade\6.1\s3e\tools"
+         C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+         echo "c:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+         chdir /d "c:\marmalade\6.1\s3e"
+         "c:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+         
+         :VCEnd
+         C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+         "c:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+     1>s3e_plink : error : marmalade license check failed
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: The command "echo C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: chdir /d "c:\marmalade\6.1\s3e\tools"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: echo "c:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: chdir /d "c:\marmalade\6.1\s3e"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: "c:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\Debug_RadianEngine_vc10_x86\RadianEngine.s86"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "C:\Users\Nath\Desktop\RadianEngine\build_radianengine_vc10\RadianEngine_vc10.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:51.77

@@ -1,0 +1,26 @@
+ResGroupResources:
+	CIwTexture (0x3521f539)
+		"sprbody1" (0x5bd88fd9)
+		Size: 4132
+	CIwTexture (0x3521f539)
+		"sprbug1" (0xa5b15449)
+		Size: 4132
+	CIwTexture (0x3521f539)
+		"sprbug2" (0xa5b1544a)
+		Size: 4132
+	CIwTexture (0x3521f539)
+		"sprbug3" (0xa5b1544b)
+		Size: 4132
+	CIwTexture (0x3521f539)
+		"sprcrab" (0xa5b1d352)
+		Size: 5076
+	CIwTexture (0x3521f539)
+		"sprhead" (0xa5b459ec)
+		Size: 8036
+	CIwTexture (0x3521f539)
+		"sprwormnode" (0xbd120f05)
+		Size: 4132
+	ResList 'CIwTexture' pos:40 size:33782
+
+ResGroupResources: Wrote 33786 bytes to CIwResGroup "testGroup"
+

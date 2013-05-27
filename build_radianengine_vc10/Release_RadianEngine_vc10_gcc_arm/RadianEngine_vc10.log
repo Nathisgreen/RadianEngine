@@ -1,0 +1,119 @@
+﻿Build started 04/01/2013 00:58:33.
+     1>Project "C:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\RadianEngine_vc10.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release_RadianEngine_vc10_gcc_arm\RadianEngine_vc10.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Marmalade\6.1\s3e\bin\CL.exe /c /Ic:/Users/TestAccount/Desktop/RadianEngine/h /I"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/h" /I"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/h" /I"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/h" /Ic:/marmalade/6.1/modules/iwutil/h /Ic:/marmalade/6.1/modules/iwgeom/h /Ic:/marmalade/6.1/modules/iwresmanager/h /Ic:/marmalade/6.1/modules/iwgl/h /Ic:/marmalade/6.1/modules/iwgx/h /I"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/h" /Ic:/marmalade/6.1/modules/iwgxfont/h /Ic:/marmalade/6.1/modules/iw2d/h /Ic:/marmalade/6.1/s3e/h /Ic:/marmalade/6.1/s3e/h/ext /Ic:/marmalade/6.1/s3e/h/std /Ic:/marmalade/6.1/s3e/h/std/c++ /Ic:/marmalade/6.1/s3e/h/ext_legacy /Ic:/marmalade/6.1/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /O2 /Oi /Oy- /X /Gm /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_RadianEngine_vc10_gcc_arm\\" /Fd"Release_RadianEngine_vc10_gcc_arm\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c:/Users/TestAccount/Desktop/RadianEngine/src/Project/BodyNode.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/Project/Crab.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/Project/Food.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/Project/SnakeHead.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/Project/game.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/Project/main.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Entity/RenderableEntity.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Input.cpp c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp /S3Eproject /J /Fe"s3e-custom-tool='c:/marmalade/6.1/s3e/gcc/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -mfloat-abi=soft -mthumb-interwork -march=armv4t -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -fomit-frame-pointer -O3" /FD  /FI"c:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\temp_defines_release.h"
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\Project\BodyNode.cpp ...
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\Project\Crab.cpp ...
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\Project\Food.cpp ...
+         c:/Users/TestAccount/Desktop/RadianEngine/src/Project/Food.cpp( In member function 'void Food) ::findPosition()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/Project/Food.cpp(34): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/Project/Food.cpp(50): warning : comparison between signed and unsigned integer expressions
+         
+         
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\Project\SnakeHead.cpp ...
+         c:/Users/TestAccount/Desktop/RadianEngine/src/Project/SnakeHead.cpp( In member function 'void SnakeHead) ::reset()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/Project/SnakeHead.cpp(118): warning : comparison between signed and unsigned integer expressions
+         
+         
+         c:/Users/TestAccount/Desktop/RadianEngine/src/Project/SnakeHead.cpp( In member function 'void SnakeHead) ::checkCollisions()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/Project/SnakeHead.cpp(259): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/Project/SnakeHead.cpp(277): warning : comparison between signed and unsigned integer expressions
+         
+         
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\Project\game.cpp ...
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\Project\main.cpp ...
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\RadianEngine\Entity\RenderableEntity.cpp ...
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\RadianEngine\EntityManager.cpp ...
+         c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp( In static member function 'static void EntityManager) ::Release()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp(15): warning : comparison between signed and unsigned integer expressions
+         
+         
+         c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp( In static member function 'static void EntityManager) ::Update(float)':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp(30): warning : comparison between signed and unsigned integer expressions
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp(37): warning : comparison between signed and unsigned integer expressions
+         
+         
+         c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp( In static member function 'static void EntityManager) ::Draw()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/EntityManager.cpp(74): warning : comparison between signed and unsigned integer expressions
+         
+         
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\RadianEngine\Input.cpp ...
+         ARM Compiling(GCC) c:\Users\TestAccount\Desktop\RadianEngine\src\RadianEngine\Renderer.cpp ...
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp(1): warning : #pragma once in main file
+         
+         
+         c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp( In static member function 'static void Renderer) ::Release()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp(15): warning : comparison between signed and unsigned integer expressions
+         
+         
+         c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp( In static member function 'static RenderSprite* Renderer) ::createRenderSprite()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp(49): warning : comparison between signed and unsigned integer expressions
+         
+         
+         c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp( In static member function 'static void Renderer) ::Draw()':
+         
+         
+     1>c:/Users/TestAccount/Desktop/RadianEngine/src/RadianEngine/Renderer.cpp(74): warning : comparison between signed and unsigned integer expressions
+         
+         
+       Link:
+         C:\Marmalade\6.1\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release_RadianEngine_vc10_gcc_arm\RadianEngine.s3e" /INCREMENTAL:NO /NOLOGO /LIBPATH:"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/lib/arm" /LIBPATH:"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/lib/arm" /LIBPATH:"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/lib/arm" /LIBPATH:c:/marmalade/6.1/modules/iwutil/lib/arm /LIBPATH:c:/marmalade/6.1/modules/iwgeom/lib/arm /LIBPATH:c:/marmalade/6.1/modules/iwresmanager/lib/arm /LIBPATH:c:/marmalade/6.1/modules/iwgx/atitools /LIBPATH:c:/marmalade/6.1/modules/iwgx/lib/arm /LIBPATH:c:/marmalade/6.1/modules/iwgl/lib/arm /LIBPATH:c:/marmalade/6.1/modules/iwgxfont/lib/arm /LIBPATH:"c:/users/testac~1/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/lib/arm" /LIBPATH:c:/marmalade/6.1/modules/iw2d/lib/arm /LIBPATH:c:/marmalade/6.1/s3e/lib/arm /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"C:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\Release_RadianEngine_vc10_gcc_arm\RadianEngine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release_RadianEngine_vc10_gcc_arm\RadianEngine.lib" /MACHINE:X86 /DLL Release_RadianEngine_vc10_gcc_arm\AnimatedEntity.obj
+         Release_RadianEngine_vc10_gcc_arm\BaseEntity.obj
+         Release_RadianEngine_vc10_gcc_arm\BodyNode.obj
+         Release_RadianEngine_vc10_gcc_arm\CollisionHandler.obj
+         Release_RadianEngine_vc10_gcc_arm\ContentManager.obj
+         Release_RadianEngine_vc10_gcc_arm\Crab.obj
+         Release_RadianEngine_vc10_gcc_arm\EngineHelper.obj
+         Release_RadianEngine_vc10_gcc_arm\Entity.obj
+         Release_RadianEngine_vc10_gcc_arm\EntityManager.obj
+         Release_RadianEngine_vc10_gcc_arm\Food.obj
+         Release_RadianEngine_vc10_gcc_arm\Input.obj
+         Release_RadianEngine_vc10_gcc_arm\RenderSprite.obj
+         Release_RadianEngine_vc10_gcc_arm\RenderableEntity.obj
+         Release_RadianEngine_vc10_gcc_arm\Renderer.obj
+         Release_RadianEngine_vc10_gcc_arm\SnakeHead.obj
+         Release_RadianEngine_vc10_gcc_arm\game.obj
+         Release_RadianEngine_vc10_gcc_arm\main.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12/COMMENT:"s3e-custom-tool='c:/marmalade/6.1/s3e/gcc/bin/arm-none-eabi-g++.exe' tooltype=gcc_linker -Wl,--gc-sections -Wl,--as-needed -mthumb-interwork -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Tlinker_script -lc -lm -Wl,-Map='Release_RadianEngine_vc10_gcc_arm\/RadianEngine.map' -Wl,--start-group -Wl,--whole-archive -liwutil -liwgeom -liwresmanager -liwgx -liwgxfont -liw2d -Wl,--no-whole-archive -ljpeg -lz -lpng -liwgl -ltiniconv -ls3e_cpp -ls3e -ls3e_api -ls3e_api -Wl,--end-group --plink:--arch=armv4T"
+         ARM Linking(GCC) ...
+         RadianEngine_vc10.vcxproj -> C:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\Release_RadianEngine_vc10_gcc_arm\RadianEngine.s3e
+       PostBuildEvent:
+         echo C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\Release_RadianEngine_vc10_gcc_arm\RadianEngine.s3e"
+         chdir /d "c:\marmalade\6.1\s3e\tools"
+         C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\Release_RadianEngine_vc10_gcc_arm\RadianEngine.s3e"
+         
+         :VCEnd
+         C:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\Release_RadianEngine_vc10_gcc_arm\RadianEngine.s3e"
+       FinalizeBuildStatus:
+         Deleting file "Release_RadianEngine_vc10_gcc_arm\RadianEngine_vc10.unsuccessfulbuild".
+         Touching "Release_RadianEngine_vc10_gcc_arm\RadianEngine_vc10.lastbuildstate".
+     1>Done Building Project "C:\Users\TestAccount\Desktop\RadianEngine\build_radianengine_vc10\RadianEngine_vc10.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.73
